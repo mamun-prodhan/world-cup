@@ -212,11 +212,24 @@ hr{
     width: 80%;
     margin: 0 auto;
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
  }
  .menu{
     margin: 20px;
  }
+ .footer-icon{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    padding-bottom: 40px;
+ }
+ .icon-style{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0 20px 0 20px;
+ }
+
   /*----------------
   end footer style 
   --------------- */
