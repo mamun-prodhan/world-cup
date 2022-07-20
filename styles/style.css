@@ -64,30 +64,32 @@ body {
  end header style 
  --------------- */
 
- /*----------------
+/*----------------
  start main section style 
  --------------- */
- main{
-    margin-top: 100px;
- }
- .main-container{
+main {
+    margin: 100px 0px 100px 0px;
+}
+
+.main-container {
     border-radius: 30px;
     width: 1320px;
     margin: auto;
     display: flex;
- }
+}
 
 /* -----------------------
  Start Aside section style
 --------------------------*/
- .pages{
+.pages {
     width: 312px;
     height: 312px;
     background-color: #161616;
     border-radius: 10px;
     margin-right: 24px;
- }
- .page-button{
+}
+
+.page-button {
     display: block;
     text-decoration: none;
     background-color: #FFFFFF;
@@ -98,11 +100,71 @@ body {
     padding: 20px 40px;
     font-weight: 500;
     font-size: 18px;
- }
- .page-selected{
+}
+
+.page-selected {
     background-color: #DD0000;
     color: #FFFFFF;
- }
- /* -----------------------
+}
+
+/* -----------------------
  End Aside section style
 --------------------------*/
+
+/* -----------------------
+ Start blogs style 
+--------------------------*/
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.blog {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-button {
+    padding: 4px 16px;
+    margin: 18px 20px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.blog-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+    margin: 2px 20px 20px 20px;
+}
+
+.detail-info {
+    display: flex;
+}
+
+.blog-duration,
+.blog-messege {
+    margin: 0 20px 20px 20px;
+}
+
+.fa-clock {
+    margin-right: 10px;
+}
+
+.fa-comment-dots {
+    margin-right: 10px;
+}
+
+/* -----------------------
+ end blogs style 
+--------------------------*/
+
+/*----------------
+ end main section style 
+ --------------- */
