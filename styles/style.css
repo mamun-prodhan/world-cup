@@ -262,4 +262,28 @@ hr{
         width: 100%;
         height: 100%;
     }
+    main {
+        margin: 50px 0px 100px 0px;
+    }
+    .main-container{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+    }
+    footer{
+        width: 100%;
+    }
+    .footer-menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+     }
+    
+
    }
