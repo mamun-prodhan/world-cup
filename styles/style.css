@@ -228,9 +228,9 @@ hr{
    /* Mobile Devices */
    @media only screen and (max-width: 688px){
     .header-container{
-        width: 100%;
+        width: 80%;
         flex-direction: column;
-        padding: 40px 60px 0px 60px;
+        padding: 40px 20px 0px 20px;
         align-items: center;
         
     }
