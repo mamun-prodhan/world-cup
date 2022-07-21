@@ -109,7 +109,6 @@ main {
     background-color: #DD0000;
 }
 
-
 .page-selected {
     background-color: #DD0000;
     color: #FFFFFF;
@@ -132,9 +131,21 @@ main {
 .blog {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
-    background-color: rgba(211, 211, 211,0.5);
 }
-
+.thumbnail{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    margin-top: 20px;
+}
+.match-title h3{
+    text-align: center;
+}
+.blog-info h3{
+    text-align: center;
+}
+.blog-info p{
+    text-align: center;
+}
 
 .blog-button {
     padding: 4px 16px;
@@ -146,6 +157,7 @@ main {
     font-size: 16px;
     cursor: pointer;
 }
+
 
 .blog-title {
     font-weight: 600;
